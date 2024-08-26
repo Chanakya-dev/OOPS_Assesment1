@@ -4,7 +4,6 @@ public class Turtle implements Animals{
   public void eat(string name, int age, char gender) {
     
 
-
  System.out.println(name);
     
   }
@@ -13,9 +12,9 @@ public class Turtle implements Animals{
 
 
   public static void main(String[] args) {
-   Turtle out=new Turtle();
+   Turtle ou=new Turtle();
   //  out.eat("rohit", 9, "m");
-  out.eat ("rohit", 12, "m");
+ou.eat("rohit", 12, "m");
 
 
   }
