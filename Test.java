@@ -4,9 +4,9 @@ class Emp {
     private int p;
     private String n;
 
-    public void sets(int n, String p) {
-        this.n = p;
-        this.p = n;
+    public void sets(int p, String n) {
+        this.n = n;
+        this.p = p;
     }
 
     public String gets() {
