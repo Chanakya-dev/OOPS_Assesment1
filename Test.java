@@ -21,6 +21,10 @@ class Emp {
     public String toString() {
         return n + " " + p;
     }
+
+    public Emp() {
+        System.out.println("this is emp() consturctor "+this.n+" "+this.p);
+    }
 }
 
 public class Test {
