@@ -8,11 +8,25 @@ public class Test{
 
 public static void main(String[] args) {
     Emp E = new Emp();
-    Scanner sc = new Scanner(System.in);
-    E.Eid = sc.nextInt();
-    E.Ename = sc.next();
-    E.EmobNo = sc.nextLong();
-    E.Esalary = sc.nextDouble();    
+    Emp E1 = new Emp(2, "Animal");
+    
+
+    E.SetEid(1);
+    System.out.println(E.GetEid());
+
+    E.SetEname("Aparna");
+    System.out.println(E.GetEname());
+
+    E.SetEmobNo(987654321);
+    System.out.println(E.GetEmobNo());
+
+    E.SetEsalary(35000.1547);
+    System.out.println(E.GetEsalary());
+
+
+    System.out.println(E1.GetEid()+ "  "+ E1.GetEname());
+    System.out.println(E.toString());
+
   }
   
 }

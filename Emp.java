@@ -7,14 +7,53 @@ public class Emp{
   private String Ename;
   private long EmobNo;
   private double Esalary;
-  @Override
-  public String toString() {
-    return "Emp [Eid=" + Eid + ", Ename=" + Ename + ", EmobNo=" + EmobNo + ", Esalary=" + Esalary + "]";
+
+  public void  SetEid(int Eid){
+    this.Eid = Eid;
   }
 
-  public Emp(int a, int b){
+  public int GetEid(){
+    return Eid;
+  }
+
+  public void SetEname(String Ename){
+    this.Ename = Ename;
+  }
+  public String GetEname(){
+    return Ename;
+  }
+
+  public void SetEmobNo(int EmobNo){
+    this.EmobNo = EmobNo;
+  }
+  public Long GetEmobNo(){
+    return EmobNo;
+  }
+
+
+  public void SetEsalary(double Esalary){
+    this.Esalary = Esalary;
+  }
+  public double GetEsalary(){
+    return Esalary;
+  }
+
+  public Emp(){
     
   }
+
+  public Emp(int eid, String ename) {
+    this.Eid = eid;
+    this.Ename = ename;
+  }
+
+  @Override
+  public String toString() {
+    return "Emp [EmobNo=" + EmobNo + ", Esalary=" + Esalary + "]";
+  }
+
+
+
 
  
 
