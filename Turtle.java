@@ -1,10 +1,10 @@
 public class Turtle implements Animals{
 
   @Override
-  public void eat(string name, int age, char gender) {
+  public void eat(int age, double gender) {
     
 
- System.out.println(name);
+ System.out.println(age+"   "+gender);
     
   }
 
@@ -14,7 +14,7 @@ public class Turtle implements Animals{
   public static void main(String[] args) {
    Turtle ou=new Turtle();
   //  out.eat("rohit", 9, "m");
-ou.eat("rohit", 12, "m");
+ou.eat(12,133);
 
 
   }
