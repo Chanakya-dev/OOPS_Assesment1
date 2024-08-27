@@ -1,5 +1,5 @@
-public interface Animals{
-    public void eat();
-// Prepare a Functoin called Eat() with String Paramater
-  
+public interface Animals {
+    // Declare a method called eat() with a String parameter
+    void Eat(String food);
 }
+
