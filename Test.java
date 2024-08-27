@@ -1,7 +1,14 @@
 public class Test{
-// 1)Prepare an Object of Emp() and Initialize a Variable
-// 2)Print Values using Getters()
-// 3)Prepare an Object of Emp() Initialize it through Args()Constructor
-// 4)Print Values by using toString();
+public static void main(String[] args) {
+
+    Emp e1 = new Emp();
+    Emp e2 = new Emp(2.2, 'M');
+    System.out.println(e1.getName());
+    System.out.println(e1.getEmpid());
+    System.out.println(e1.toString());
+
+    
+
+}
   
 }
